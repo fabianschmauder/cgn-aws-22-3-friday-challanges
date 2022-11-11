@@ -26,7 +26,7 @@ We will write a script that outputs a json with running processes
     }
 ]
 ```
-2. write a script that writes the 5 processes with the highest cpu consumption into a json file. The file should look like the file from point 1 with the name `monitoring-data.json` (you can use `ps -eo pcpu,pid,user,args | sort -k 1 -r` to list the runing proccesses )
+2. write a script that writes the 5 processes with the highest cpu consumption into a json file. The file should look like the file from point 1 with the name `monitoring-data.json` (you can use `ps -eo pcpu,pid,user,args | sort -k 1 -r` to list the running proccesses )
 
 ### 2. Monitoring ec2 instance
 1. upload your script to an ec2 instance
